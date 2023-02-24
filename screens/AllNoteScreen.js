@@ -5,7 +5,7 @@ import ListItem from '../components/ListItem'
 
 const AllNoteScreen = ({notes}) => {
     const renderItem = (itemData) => {
-        return <ListItem note={itemData.item.note}/>
+        return <ListItem note={itemData.item.text}/>
     }
     return (
         <View>
